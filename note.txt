@@ -1,0 +1,36 @@
+
+let varName = document.querySelector('id');
+varName.querySelectorAll('.className');  // querySelector er vitor again querySelector kora jay and child Element e lap deye sole jaua jay
+
+let varName = document.querySelector('id');
+varName.closest(.className)   // parent elment e lap deye sole jaua 
+
+let varName = document.querySelector('id');
+varName.nextElementSibling  // er porer elment e jaua
+varName.previusElementSibling  //  er ager Element e jaua 
+
+p.insertBefore( p, document.getElementById('id') )
+
+document.getElementById('id').remove(  document.getElementById('id')  ); // kuno kisu remove kora 
+
+
+
+Play with DOM (Document Object Model)  Resource Link > https://catnip-eyelash-300.notion.site/Play-with-DOM-Document-Object-Model-a04fba01e65b4971a500950379733b8c
+
+
+document.getElementById('discount-btn').addEventListener( 'click', function(e){   
+    console.log(e);
+    e.stopPropagation();
+} )     // function er e mane, event take parametar hisebe nelam
+ 
+
+
+
+onclick( functionName( this ) );   //Get target element 
+
+functionName(target){
+    target.parentNode.childNode[2]
+}
+
+p.innerText.split(" ")[1];  // split korle 1ta array hoy jabe
+
